@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+background-color: azure;
+/* font-family: proxima-nova, sans-serif; */
+font: normal 16px 'Nunito', sans-serif;
+}
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+a:active{
+    color:blue
+}
+a:visited{
+    color: grey;
+}
+ .avatar{
+width:175px;
+border-radius: 30%;
+box-shadow: 2px 2px 1px rgba(0, 0, 0, 20) ;
+}
+.info p {
+    color: black;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    background: lightcoral;
+    width: 219px;
+    border-radius: 15px;
+}
+.full{
+    width: 700px;
+    margin: auto;
+}
+.card {
+    padding: 15px;
+    background: lightblue;
+    border-radius: 10px;
+    list-style: none;
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+.container{
+    padding: 30px;
+}
+.table-edu{
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: lightskyblue;
+    
+}
+.full-table{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.table-item{
+   text-align: left; 
+   color:rgb(51, 46, 46);
+   font-style: italic;
+   font-weight: bold;
+}
+.form-group input,
+.zform-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
